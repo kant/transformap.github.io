@@ -1,7 +1,12 @@
 ## **TransforMap Updates** ##
 
 -----------------------------
+### **[Listing map atlases of alternative economies](https://discourse.transformap.co/t/listing-all-atlases-of-maps/1012)** ###
 
+Let's increase the visibility of the maps atlas we have documented in [Transformap's own atlas](http://mmm.3oe.de/wiki/Category:Meta). This page will also serve to collect new entries for those who don't want/can't add it directly to the wiki.
+Here is a metamap to get the overview: https://metamaps.cc/maps/1979
+
+---
 ### **[Transformap Community Report #1: 31 March 2016](https://discourse.transformap.co/t/community-report-1-31st-march-2016/1011)** ###
 
 Dear transformap friends and contributors,

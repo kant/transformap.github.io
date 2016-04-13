@@ -9,6 +9,9 @@ body {
 	padding-top: 50px;
 	font-family: 'PT Sans', sans-serif;
 }
+body#map {
+	padding-top: 0;
+}
 section {
 	padding: 50px 0;
 }
@@ -200,9 +203,15 @@ Map Styles
 
 #map {
 	height: 100vh;
-	.leaflet-top .leaflet-control {
+	width: 100vw;
+	/*.leaflet-top .leaflet-control {
 		margin-top: 60px; /* To account for navbar height and padding */
-	}
+	//}
+}
+
+#map-embed {
+	height: 100%;
+	width: 100%;
 }
 
 /*****************

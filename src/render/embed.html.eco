@@ -1,0 +1,26 @@
+---
+layout: map
+tags: ['ssedas','embed','map']
+---
+
+<div id="map-embed">
+</div>
+
+
+<!-- Backbone template for popups -->
+
+<div id="profiles"></div>
+
+<!-- Create isotope items -->
+<script id="profileTemplate" type="text/template">
+		<div class="col-sm-4">
+			<div class="caption">
+				<h6>
+					<a data-target="#<%- project.link %>" data-toggle="modal">
+						<%- project.name %>
+					</a>
+				</h6>
+			</div>
+		</div>
+	</div>
+</script>

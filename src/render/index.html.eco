@@ -3,10 +3,6 @@ layout: default
 tags: ['news','blog','overview']
 ---
 
-<section id="landing-map">
-	<div id="map">
-	</div>
-</section>
 
 <section id="welcome">
 	<div class="container text-center">

@@ -32,7 +32,7 @@ docpadConfig = {
 				"""
 
 			# The website author's name
-			author: "Kei Kreutler"
+			author: "TransforMap Community"
 
 			# The website author's email
 			email: "kei@ourmachine.net"
@@ -51,9 +51,10 @@ docpadConfig = {
 				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
 				"/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
+				"//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"
+				"//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.0/backbone-min.js"
 				"//cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"
 				"/scripts/script.js"
-				"/scripts/map.js"
 			]
 
 			# Piwik

@@ -20,6 +20,13 @@ tags: ['about','who we are']
 
 	<section>
 		<div class="container">
+			<div class="funders">
+				<a href="http://www.chest-project.eu/"><img src="/images/chest_logo.png"></a>
+				<img src="/images/EC-Comission-Logo.jpg">
+				<p>
+					CHEST (Collective enHanced Environment for Social Tasks) is a 30 month Research and Development project, supported under the Seventh Framework  Programme to promote the development of digital based innovations that  have the potential to address key societal challenges. TransforMap has been successful in receiving support through the scheme with the managing partner organizations Get Active and Ecobytes.
+				</p>
+			</div>
 			<img src="https://cdn.rawgit.com/thoka/transformap-partners/master/logos.png">
 		</div>
 	</section>

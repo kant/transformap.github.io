@@ -3,24 +3,23 @@ layout: map
 tags: ['ssedas','embed','map']
 ---
 
-<div id="map-embed">
+<div id="map-filters">
+	<img src="/images/susy_logo.png">
+	<h3>Organisations</h3>
+	<ul class="list-group">
+		<li id="f1" class="list-group-item">Food and Agriculture</li>
+		<li id="f2" class="list-group-item">Fair Trade</li>
+		<li id="f3" class="list-group-item">Reduce, reuse, repair, recycle</li>
+		<li id="f4" class="list-group-item">Housing and habitat</li>
+		<li id="f5" class="list-group-item">Infrastructure</li>
+		<li id="f5-sub" class="list-group-item">Bicycle initiatives</li>
+		<li id="f5-sub" class="list-group-item">Energy</li>
+		<li id="f6" class="list-group-item">Social inclusion</li>
+		<li id="f7" class="list-group-item">Commoning</li>
+		<li id="f8" class="list-group-item">Education and Training</li>
+		<li id="f9" class="list-group-item">MORE FILTERS</li>
+	</ul>
 </div>
 
-
-<!-- Backbone template for popups -->
-
-<div id="profiles"></div>
-
-<!-- Create isotope items -->
-<script id="profileTemplate" type="text/template">
-		<div class="col-sm-4">
-			<div class="caption">
-				<h6>
-					<a data-target="#<%- project.link %>" data-toggle="modal">
-						<%- project.name %>
-					</a>
-				</h6>
-			</div>
-		</div>
-	</div>
-</script>
+<div id="map-embed">
+</div>

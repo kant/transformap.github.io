@@ -45,7 +45,6 @@
 	<!-- Scripts -->
 	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
 	<script defer="defer" type="text/javascript" src="/scripts/map.js"></script>
-	<script defer="defer" type="text/javascript" src="/scripts/app.js"></script>
 	<!-- Piwik -->
 	<script type="text/javascript">
 		var _paq = _paq || [];

@@ -5,6 +5,8 @@ var map = L.map('map-embed', {
     scrollWheelZoom: false
 });
 
+var theme_colors = ["#fcec74", "#f7df05", "#f2bd0b", "#fff030", "#95D5D2", "#1F3050"];
+
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png').addTo(map);
 
 var geojsonLayer = new L.layerGroup();
@@ -12,7 +14,11 @@ var geojsonLayer = new L.layerGroup();
 $.getJSON("//data.transformap.co/raw/5d6b9d3d32097fd68322008744001eec", function(data) {
     L.geoJson(data, {
         pointToLayer: function(feature, latlng) {
-            var marker = L.marker(latlng);
+            var marker = L.circleMarker(latlng, {
+                color: theme_colors[(Math.floor(Math.random() * 6) + 1)],
+                opacity: 1,
+                fillOpacity: 1,
+            });
             return marker;
         },
         onEachFeature: createLayers
@@ -20,17 +26,9 @@ $.getJSON("//data.transformap.co/raw/5d6b9d3d32097fd68322008744001eec", function
     });
 
 function createLayers(feature, featureLayer) {
-	featureLayer.bindPopup('<strong>' + feature.properties.name + '</strong><p>' + feature.properties.concept + '</p><a href="' + feature.properties.url + '"">' + feature.properties.url + '</a>' );
+	featureLayer.bindPopup('<a href="' + feature.properties.url + '"">' + feature.properties.name + '</a><p>' + feature.properties.concept + '</p>' );
     geojsonLayer.addLayer(featureLayer);
 }
 
 geojsonLayer.addTo(map);
 
-var router = new (Backbone.Router.extend())
-
-var Profile = Backbone.Model.extend();
-
-var ProfileList = Backbone.Collection.extend({
-    model: Profile,
-    url: '//data.transformap.co/raw/5d6b9d3d32097fd68322008744001eec'
-});

@@ -3,6 +3,7 @@ layout: default
 tags: ['news','blog','overview']
 ---
 
+
 <section id="welcome">
 	<div class="container text-center">
 		<%- @partial('text-main-description') %>

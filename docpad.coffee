@@ -32,16 +32,18 @@ docpadConfig = {
 				"""
 
 			# The website author's name
-			author: "Kei Kreutler"
+			author: "TransforMap Community"
 
 			# The website author's email
-			email: "prox@imity.io"
+			email: "kei@ourmachine.net"
 
 			# Styles
 			styles: [
 				"//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin,latin-ext"
+				"//fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic&subset=latin,latin-ext"
 				"//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
 				"/styles/twitter-bootstrap.css"
+				"//cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css"
 				"/styles/style.css"
 			]
 
@@ -50,6 +52,9 @@ docpadConfig = {
 				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
 				"/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
+				"//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"
+				"//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.0/backbone-min.js"
+				"//cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"
 				"/scripts/script.js"
 			]
 

@@ -16,7 +16,9 @@ $.getJSON("//data.transformap.co/raw/5d6b9d3d32097fd68322008744001eec", function
         pointToLayer: function(feature, latlng) {
             var marker = L.circleMarker(latlng, {
                 color: theme_colors[(Math.floor(Math.random() * 6) + 1)],
-                opacity: 1,
+                radius: 5,
+                weight: 7,
+                opacity: .5,
                 fillOpacity: 1,
             });
             return marker;
@@ -26,7 +28,7 @@ $.getJSON("//data.transformap.co/raw/5d6b9d3d32097fd68322008744001eec", function
     });
 
 function createLayers(feature, featureLayer) {
-	featureLayer.bindPopup('<a href="' + feature.properties.url + '"">' + feature.properties.name + '</a><p>' + feature.properties.concept + '</p>' );
+	featureLayer.bindPopup('<div class="popup-heading"><a href="' + feature.properties.url + '" target="_blank">' + feature.properties.name + '</a></div><img src="/images/gardening.jpg"><p>' + feature.properties.concept + '</p><p><strong>Tags:</strong> urban gardening, community development, circular economy</p>' );
     geojsonLayer.addLayer(featureLayer);
 }
 

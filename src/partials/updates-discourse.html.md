@@ -1,6 +1,12 @@
 ## **TransforMap Updates** ##
 
 -----------------------------
+### **[Community Report #3: 27 April 2016](https://discourse.transformap.co/t/community-report-3-27-april-2016/1042)**###
+
+**Community**: **Migrating our inventory of maps**
+Since the beginning of our adventure we have inventoried existing maps of alternative economies as well as mapping resources (like atlases or tools). The wiki is now relocated at the following address: http://wiki.transformaps.net/. [Read more](https://discourse.transformap.co/t/community-report-3-27-april-2016/1042)
+
+---
 ### **[Community Report #2: 14 April 2016](https://discourse.transformap.co/t/community-report-2-14-april-2016/1026/1)**###
 
 In this second community report you will get a general update on the budget process, on the current tech proposal regarding the management of filters/taxonomies, and some updates from the community at large. Hope this is informative. Feedback/critiques/ideas are welcome! 
@@ -19,10 +25,3 @@ Here is a metamap to get the overview: https://metamaps.cc/maps/1979
 Dear transformap friends and contributors,
 
 This is the first so-called Community Report. In our learning process, we have decided to aim at a bi-weekly Community Report that will provide some key updates along three categories: Tech development, Community development and Project management (this is a temporary category that is connected to specific financial streams).
-
----
-
-###  **[Using scrum in the production of techno-social commons within Transformap](https://discourse.transformap.co/t/using-scrum-in-the-production-of-techno-social-commons-within-transformap/861)** ###
-
-We started using the scrum methodology on September last year, with the aim of supporting and planning the development of the socio-technical infrastructure of Transformap. Everyone, both technical and non-technical people, is welcome to join scrum teams of TransforMap at the planning meetings. As we work with with, we also shape scrum to be a more convivial and useful tool for Transformap, fitting to the political and cultural specificities of its communities... [Read more](https://discourse.transformap.co/t/using-scrum-in-the-production-of-techno-social-commons-within-transformap/861)
-*Jan 15 2016, 1:33 PM, [Gualter Barbas Baptista](https://discourse.transformap.co/users/gandhiano/activity)*

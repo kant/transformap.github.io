@@ -1,6 +1,11 @@
 ## **TransforMap Updates** ##
 
 -----------------------------
+### **[Community Report #4: 19th of May 2016](https://discourse.transformap.co/t/community-report-4-19th-of-may-2016/1053/1)**###
+**The global Map Jam goes on!**
+With over 300 participants, the third Map Jam organized by Shareable was successful and will be reconducted in June and October. Check out the Map Jam mapping guide (which we helped shape). Another round is planned during #SharingWeek betwen 5-11 June... [Read more](https://discourse.transformap.co/t/community-report-4-19th-of-may-2016/1053/1)
+
+---
 ### **[Community Report #3: 27 April 2016](https://discourse.transformap.co/t/community-report-3-27-april-2016/1042)**###
 
 **Community**: **Migrating our inventory of maps**
@@ -20,8 +25,3 @@ Let's increase the visibility of the maps atlas we have documented in [Transform
 Here is a metamap to get the overview: https://metamaps.cc/maps/1979
 
 ---
-### **[Transformap Community Report #1: 31 March 2016](https://discourse.transformap.co/t/community-report-1-31st-march-2016/1011)** ###
-
-Dear transformap friends and contributors,
-
-This is the first so-called Community Report. In our learning process, we have decided to aim at a bi-weekly Community Report that will provide some key updates along three categories: Tech development, Community development and Project management (this is a temporary category that is connected to specific financial streams).

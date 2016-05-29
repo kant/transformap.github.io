@@ -1,5 +1,5 @@
 
-var map = L.map('map-embed', {
+/*var map = L.map('map-embed', {
     center: [30, -25],
     zoom: 3,
     scrollWheelZoom: false
@@ -32,5 +32,58 @@ function createLayers(feature, featureLayer) {
     geojsonLayer.addLayer(featureLayer);
 }
 
-geojsonLayer.addTo(map);
+geojsonLayer.addTo(map);*/
 
+var MapModel = Backbone.Model.extend({});
+
+var MapData = Backbone.Collection.extend({
+    url:"//data.transformap.co/raw/5d6b9d3d32097fd68322008744001eec",
+    parse: function(response){
+        return response.features;
+    },
+    toJSON : function() {
+      return this.map(function(model){ return model.toJSON(); });
+    }
+ });
+
+var FilterData = Backbone.Collection.extend({
+    url:"/static/json/susy-taxonomy.json",
+    parse: function(response){
+        return response.results.bindings;
+    },
+    toJSON : function() {
+      return this.map(function(model){ return model.toJSON(); });
+    }
+ });
+
+
+var MapView = Backbone.View.extend({
+    el: '#map-template',
+    template: _.template($('#mapTemplate').html()),
+    initialize: function(){
+        this.$el.html(this.template());
+        this.listenTo(this.collection, 'reset add change remove', this.render);
+        this.collection.fetch();
+    },
+    render: function () {
+
+        var map = L.map(this.$('#map-tiles')[0]).setView ([30, -25], 3);
+        L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+          attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+        }).addTo(map);
+
+        this.collection.each(function(model){
+            var feature = model.toJSON();
+            marker = new L.Marker(new L.LatLng(feature.geometry.coordinates[1],feature.geometry.coordinates[0]));     
+            model.marker = marker;
+            map.addLayer(marker);
+        }, this); 
+        
+        return this;
+    },
+});
+
+
+var mapData = new MapData();
+var mapView = new MapView({ collection: mapData });
+//mapView.render();

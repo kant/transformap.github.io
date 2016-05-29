@@ -201,14 +201,24 @@ section#channels {
 Map Styles
 ****************/
 
+/* Overall container for map layout */
 #map {
-	height: 100vh;
-	width: 100vw;
-	/*.leaflet-top .leaflet-control {
-		margin-top: 60px; /* To account for navbar height and padding */
+	max-height: 100%;
+	max-width: 100%;
+	overflow-x: hidden;
 	p {
 		font-family: 'Open Sans', sans-serif;
 	}
+}
+
+/* Backbone template script */
+
+/* Map itself */
+#map-tiles {
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
 }
 
 @yellow-one:	#fcec74;

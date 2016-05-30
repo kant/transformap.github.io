@@ -34,10 +34,12 @@ function createLayers(feature, featureLayer) {
 
 geojsonLayer.addTo(map);*/
 
+var theme_colors = ["#fcec74", "#f7df05", "#f2bd0b", "#fff030", "#95D5D2", "#1F3050"];
+
 var MapModel = Backbone.Model.extend({});
 
 var MapData = Backbone.Collection.extend({
-    url:"//data.transformap.co/raw/5d6b9d3d32097fd68322008744001eec",
+    url:"/json/sample-data.json", // //data.transformap.co/raw/5d6b9d3d32097fd68322008744001eec",
     parse: function(response){
         return response.features;
     },
@@ -63,8 +65,20 @@ var MapView = Backbone.View.extend({
 
         this.collection.each(function(model){
             var feature = model.toJSON();
-            marker = new L.Marker(new L.LatLng(feature.geometry.coordinates[1],feature.geometry.coordinates[0]));     
+            //marker = new L.Marker(new L.LatLng(feature.geometry.coordinates[1],feature.geometry.coordinates[0]));
+
+            var marker = L.circleMarker(new L.LatLng(feature.geometry.coordinates[1],feature.geometry.coordinates[0]), {
+                color: theme_colors[(Math.floor(Math.random() * 6) + 1)],
+                radius: 5,
+                weight: 7,
+                opacity: .5,
+                fillOpacity: 1,
+            });
+
             model.marker = marker;
+
+            marker.bindPopup('<div class="popup-heading"><a href="' + feature.properties.url + '" target="_blank">' + feature.properties.name + '</a></div><img src="/images/gardening.jpg"><p>' + feature.properties.concept + '</p><p><strong>Tags:</strong> urban gardening, community development, circular economy</p>');
+
             map.addLayer(marker);
         }, this); 
         
@@ -86,6 +100,8 @@ var FilterData = Backbone.Collection.extend({
     }
  });
 
+var subcategories = [];
+
 var FilterView = Backbone.View.extend({
     el: '#map-filters',
     template: _.template($('#mapFiltersTemplate').html()),
@@ -95,17 +111,33 @@ var FilterView = Backbone.View.extend({
     },
     render: function () {
         this.collection.each(function(model){
-             var filterItem = this.template(model.toJSON());
-             this.$el.append(filterItem);
+            var filter = model.toJSON();
+            if(filter.subclass_of.value == 'Q1234#SSEDAS_TAX_UUID') {
+                this.$el.append(this.template(filter));
+            }
         }, this);        
         return this;
     },
     renderItem: function(model) {
-         var filters = this.template(model.toJSON());
-         console.log(model.toJSON().itemLabel.value);
-         this.$el.append(filters);        
+        var filter = model.toJSON();
+        if(filter.subclass_of.value == 'Q1234#SSEDAS_TAX_UUID') {
+            subcategories.push(filter.item.value);
+            this.$el.append(this.template(filter));
+        }
+        for(i = 0; i < subcategories.length; i++) {
+            if(filter.subclass_of.value == subcategories[i]) {
+                var subCatId = '#' + subcategories[i];
+                $(subCatId).append('<li class="list-group-item subcategory">' + filter.itemLabel.value + '</li>');
+            }
+        }
     }
 });
+
+$('.category').on('click', function () {
+    $category = $(this);
+    $category.find('.subcategory').slideToggle(400);
+});
+
 
 var filterData = new FilterData();
 var filterView = new FilterView({ collection: filterData });

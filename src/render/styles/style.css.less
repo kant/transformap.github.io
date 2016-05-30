@@ -221,6 +221,46 @@ Map Styles
 	width: 80%;
 	display: inline;
 	float: left;
+	.leaflet-popup {
+		font-family: 'Open Sans', sans-serif;
+		width: 250;
+		text-align: left !important;
+		p {
+			font-size: 12px;
+			text-align: left;
+			padding: 5px;
+		}
+		img {
+			width: 250px;
+		}
+	}
+	.leaflet-popup-content-wrapper {
+		border-radius: 0;
+		padding: 0px;
+		margin: 0;
+		width: 250px;
+	}
+	.leaflet-popup-content {
+		.popup-heading {
+			background: @light-blue;
+			text-align: left;
+			padding: 10px;
+			a {
+				margin: 0;
+				color: #fff;
+			}
+		}
+		a {
+			text-align: left !important;
+			color: #000;
+		}
+		margin: 0;
+		p {
+			margin: 0;			
+			padding: 5px 10px;
+		}
+		padding-bottom: 5px;
+	}
 }
 
 @yellow-one:	#fcec74;
@@ -235,7 +275,6 @@ Map Styles
 	width: 20%;
 	display: inline;
 	float: left;
-	padding: 50px 0;
 	img {
 		max-width: 100px;
 		display: block;
@@ -255,6 +294,10 @@ Map Styles
 			cursor: pointer;
 		}
 	}
+}
+
+.subcategory {
+	display: none;
 }
 
 

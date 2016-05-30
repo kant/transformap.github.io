@@ -57,7 +57,7 @@ var MapView = Backbone.View.extend({
         this.collection.fetch();
     },
     render: function () {
-        var map = L.map(this.$('#map-tiles')[0]).setView ([30, -25], 3);
+        var map = L.map(this.$('#map-tiles')[0], { scrollWheelZoom: false }).setView ([51.1657, 10.4515], 6);
         L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
           attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
         }).addTo(map);

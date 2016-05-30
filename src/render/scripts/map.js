@@ -46,17 +46,6 @@ var MapData = Backbone.Collection.extend({
     }
  });
 
-var FilterData = Backbone.Collection.extend({
-    url:"/static/json/susy-taxonomy.json",
-    parse: function(response){
-        return response.results.bindings;
-    },
-    toJSON : function() {
-      return this.map(function(model){ return model.toJSON(); });
-    }
- });
-
-
 var MapView = Backbone.View.extend({
     el: '#map-template',
     template: _.template($('#mapTemplate').html()),
@@ -83,7 +72,41 @@ var MapView = Backbone.View.extend({
     },
 });
 
-
 var mapData = new MapData();
 var mapView = new MapView({ collection: mapData });
-//mapView.render();
+
+
+var FilterData = Backbone.Collection.extend({
+    url:"/json/susy-taxonomy.json",
+    parse: function(response){
+        return response.results.bindings;
+    },
+    toJSON : function() {
+      return this.map(function(model){ return model.toJSON(); });
+    }
+ });
+
+var FilterView = Backbone.View.extend({
+    el: '#map-filters',
+    template: _.template($('#mapFiltersTemplate').html()),
+    initialize: function(){
+        this.listenTo(this.collection,"add", this.renderItem);
+        this.collection.fetch();   
+    },
+    render: function () {
+        this.collection.each(function(model){
+             var filterItem = this.template(model.toJSON());
+             this.$el.append(filterItem);
+        }, this);        
+        return this;
+    },
+    renderItem: function(model) {
+         var filters = this.template(model.toJSON());
+         console.log(model.toJSON().itemLabel.value);
+         this.$el.append(filters);        
+    }
+});
+
+var filterData = new FilterData();
+var filterView = new FilterView({ collection: filterData });
+filterView.render();

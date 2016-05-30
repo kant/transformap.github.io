@@ -4,7 +4,10 @@ tags: ['ssedas','embed','map']
 ---
 
 <script type='template' id='mapFiltersTemplate'>
-	<li id="<%- item.value %>" class="list-group-item category"><%- itemLabel.value %></li>
+	<li class="list-group-item category"><%- itemLabel.value %>
+		<ul id="<%- item.value %>">
+		</ul>
+	</li>
 </script>
 
 <div id="map-filters-container">
@@ -17,13 +20,3 @@ tags: ['ssedas','embed','map']
 </script>
 
 <div id='map-template'></div>
-
-
-<script type="javascript">
-$('#map-filters-category').on('click', function () {
-        console.log('hello');
-        //$category = $(this);
-        //$category.find('.subcategory').slideToggle(400);
-});
-
-</script>

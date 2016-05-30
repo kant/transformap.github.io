@@ -57,7 +57,6 @@ var MapView = Backbone.View.extend({
         this.collection.fetch();
     },
     render: function () {
-
         var map = L.map(this.$('#map-tiles')[0]).setView ([30, -25], 3);
         L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
           attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
@@ -118,6 +117,13 @@ var FilterView = Backbone.View.extend({
         }, this);        
         return this;
     },
+    events: {
+        "click .category": "clicked"
+    },
+    clicked: function(e){
+        e.preventDefault();
+        $(e.currentTarget).find('ul').slideToggle(400);
+    },
     renderItem: function(model) {
         var filter = model.toJSON();
         if(filter.subclass_of.value == 'Q1234#SSEDAS_TAX_UUID') {
@@ -134,10 +140,9 @@ var FilterView = Backbone.View.extend({
 });
 
 $('.category').on('click', function () {
-    $category = $(this);
+    $category = $(e);
     $category.find('.subcategory').slideToggle(400);
 });
-
 
 var filterData = new FilterData();
 var filterView = new FilterView({ collection: filterData });

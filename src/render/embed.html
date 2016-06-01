@@ -5,7 +5,7 @@ tags: ['ssedas','embed','map']
 
 <script type='template' id='mapFiltersTemplate'>
 	<li class="list-group-item category"><%- itemLabel.value %>
-		<ul id="<%- item.value %>">
+		<ul id="<%- item.value %>" class="subcategory">
 		</ul>
 	</li>
 </script>
@@ -14,9 +14,27 @@ tags: ['ssedas','embed','map']
   <div id="map-tiles"></div>
 </script>
 
-<div id='map-template'></div>
+<script type='template' id='popUpTemplate'>
+	<div class="popup-heading">
+		<a href="<%- properties.url %>" target="_blank"><%- properties.name %></a>
+	</div>
+	<img src="/images/gardening.jpg">
+	<p>
+		<%- properties.description  %>
+	</p>
+	<p>
+
+		Address: <%- properties['addr:housenumber'] %><%- properties['addr:street'] %>, <%- properties['addr:city'] %>, <%- properties['addr:country'] %>
+	</p>
+	<p>
+		Contact: <%- properties['contact:email'] %>
+	</p>
+
+</script>
 
 <div id="map-filters-container">
 	<ul id="map-filters" class="list-group">
 	</ul>
 </div>
+
+<div id='map-template'></div>

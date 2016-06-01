@@ -55,6 +55,7 @@ docpadConfig = {
 				"//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"
 				"//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.0/backbone-min.js"
 				"//cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"
+				"/vendor/PrunceCluster/PruneCluster.js"
 				"/scripts/script.js"
 			]
 

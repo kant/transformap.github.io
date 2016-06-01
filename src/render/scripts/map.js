@@ -33,7 +33,7 @@ function createLayers(feature, featureLayer) {
 }
 
 geojsonLayer.addTo(map);*/
-
+var map;
 var theme_colors = ["#fcec74", "#f7df05", "#f2bd0b", "#fff030", "#95D5D2", "#1F3050"];
 
 var MapModel = Backbone.Model.extend({});
@@ -51,13 +51,14 @@ var MapData = Backbone.Collection.extend({
 var MapView = Backbone.View.extend({
     el: '#map-template',
     template: _.template($('#mapTemplate').html()),
+    templatePopUp: _.template($('#popUpTemplate').html()),
     initialize: function(){
         this.$el.html(this.template());
         this.listenTo(this.collection, 'reset add change remove', this.render);
         this.collection.fetch();
     },
     render: function () {
-        var map = L.map(this.$('#map-tiles')[0], { scrollWheelZoom: false }).setView ([51.1657, 10.4515], 6);
+        map = L.map(this.$('#map-tiles')[0], { scrollWheelZoom: false }).setView ([51.1657, 10.4515], 6);
         L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
           attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
         }).addTo(map);
@@ -68,7 +69,7 @@ var MapView = Backbone.View.extend({
 
             var marker = L.circleMarker(new L.LatLng(feature.geometry.coordinates[1],feature.geometry.coordinates[0]), {
                 color: theme_colors[(Math.floor(Math.random() * 6) + 1)],
-                radius: 5,
+                radius: 8,
                 weight: 7,
                 opacity: .5,
                 fillOpacity: 1,
@@ -76,7 +77,7 @@ var MapView = Backbone.View.extend({
 
             model.marker = marker;
 
-            marker.bindPopup('<div class="popup-heading"><a href="' + feature.properties.url + '" target="_blank">' + feature.properties.name + '</a></div><img src="/images/gardening.jpg"><p>' + feature.properties.concept + '</p><p><strong>Tags:</strong> urban gardening, community development, circular economy</p>');
+            marker.bindPopup(this.templatePopUp(feature));
 
             map.addLayer(marker);
         }, this); 
@@ -133,15 +134,10 @@ var FilterView = Backbone.View.extend({
         for(i = 0; i < subcategories.length; i++) {
             if(filter.subclass_of.value == subcategories[i]) {
                 var subCatId = '#' + subcategories[i];
-                $(subCatId).append('<li class="list-group-item subcategory">' + filter.itemLabel.value + '</li>');
+                $(subCatId).append('<li class="list-group-item">' + filter.itemLabel.value + '</li>');
             }
         }
     }
-});
-
-$('.category').on('click', function () {
-    $category = $(e);
-    $category.find('.subcategory').slideToggle(400);
 });
 
 var filterData = new FilterData();

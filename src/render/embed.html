@@ -4,7 +4,8 @@ tags: ['ssedas','embed','map']
 ---
 
 <script type='template' id='mapFiltersTemplate'>
-	<li class="list-group-item category"><%- itemLabel.value %>
+	<li class="list-group-item category">
+		<%- itemLabel.value %>
 		<ul id="<%- item.value %>" class="subcategory">
 		</ul>
 	</li>
@@ -55,16 +56,17 @@ tags: ['ssedas','embed','map']
 
 	<% if (properties['opening_hours:url']) { %>
 		<p>
-			<strong>Opening hours</strong>
+			<strong>Opening hours</strong><br>
 			<a href="<%- properties['opening_hours:url'] %>"><%- properties['opening_hours:url'] %></a>
 		</p>
 	<% } %>
-
 </script>
+
+<div id='map-template'></div>
 
 <div id="map-filters-container">
 	<ul id="map-filters" class="list-group">
+
 	</ul>
 </div>
 
-<div id='map-template'></div>

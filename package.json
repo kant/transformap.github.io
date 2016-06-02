@@ -1,6 +1,6 @@
 {
   "name": "transformap",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "TransforMap is a techno-social architecture to visualise the commons transition.",
   "homepage": "http://transformap.co/",
   "keywords": [
@@ -10,6 +10,7 @@
     "commons"
   ],
   "author": "Proximity Ltd <prox@imity.io> (http://imity.io/)",
+  "license": "AGPL-1.0",
   "maintainers": [
     "Thomas Kalka <thomas.kalka@gmail.com> (https://github.com/thoka)",
     "Michael Maier <michael.maier@stud.unigraz.at> (https://github.com/species)",

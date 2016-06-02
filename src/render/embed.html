@@ -18,17 +18,47 @@ tags: ['ssedas','embed','map']
 	<div class="popup-heading">
 		<a href="<%- properties.url %>" target="_blank"><%- properties.name %></a>
 	</div>
-	<img src="/images/gardening.jpg">
+	<% if (properties['image']) { %>
+		<p>
+			<img src="<%- properties.image %>">
+			<br>
+			<em><%- properties['image:license'] %> <%- properties['image:credit'] %></em>
+		</p>
+	<% } %>
 	<p>
 		<%- properties.description  %>
 	</p>
 	<p>
 
-		Address: <%- properties['addr:housenumber'] %><%- properties['addr:street'] %>, <%- properties['addr:city'] %>, <%- properties['addr:country'] %>
+		<strong>Address</strong>
+		<br>
+		<%- properties['addr:housenumber'] %> <%- properties['addr:street'] %><br><%- properties['addr:postcode'] %> <%- properties['addr:city'] %>, <%- properties['addr:country'] %>
 	</p>
+
+	<% if ((properties['contact:email']) || (properties['contact:website']) || (properties['contact:phone'])) { %>
 	<p>
-		Contact: <%- properties['contact:email'] %>
+		<strong>Contact</strong><br>
+	 	<% if (properties['contact:email']) { %>
+		<a href="mailto:<%- properties['contact:email'] %>"><%- properties['contact:email'] %></a>
+		<br>
+		<% } %>
+	 	<% if (properties['contact:website']) { %>
+		<a href="<%- properties['contact:website'] %>"><%- properties['contact:website'] %></a>
+		<br>
+		<% } %>
+	 	<% if (properties['contact:phone']) { %>
+		<%- properties['contact:phone'] %>
+		<% } %>
 	</p>
+	<% } %>
+
+
+	<% if (properties['opening_hours:url']) { %>
+		<p>
+			<strong>Opening hours</strong>
+			<a href="<%- properties['opening_hours:url'] %>"><%- properties['opening_hours:url'] %></a>
+		</p>
+	<% } %>
 
 </script>
 

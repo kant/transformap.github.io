@@ -1,2 +1,4 @@
 node_modules/
 out/
+src/static/vendor/twitter-bootstrap
+npm-debug.log

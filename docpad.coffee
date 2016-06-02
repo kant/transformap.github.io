@@ -111,7 +111,7 @@ docpadConfig = {
 			downloads: [
 				{
 					name: 'Bootstrap'
-					path: 'src/files/vendor/twitter-bootstrap'
+					path: 'src/static/vendor/twitter-bootstrap'
 					url: 'https://codeload.github.com/twbs/bootstrap/tar.gz/master'
 					tarExtractClean: true
 				}
@@ -145,6 +145,11 @@ docpadConfig = {
 					res.redirect(newUrl+req.url, 301)
 				else
 					next()
+	# setting local hostname
+	# via http://stackoverflow.com/a/21278511/1959568
+	environments:
+		development:
+			hostname: 'localhost'
 }
 
 

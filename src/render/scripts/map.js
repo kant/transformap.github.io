@@ -31,7 +31,6 @@ var MapView = Backbone.View.extend({
 
         this.collection.each(function(model){
             var feature = model.toJSON();
-            //marker = new L.Marker(new L.LatLng(feature.geometry.coordinates[1],feature.geometry.coordinates[0]));
 
             var marker = L.circleMarker(new L.LatLng(feature.geometry.coordinates[1],feature.geometry.coordinates[0]), {
                 color: theme_colors[(Math.floor(Math.random() * 6) + 1)],
@@ -54,7 +53,7 @@ var MapView = Backbone.View.extend({
 
 var mapData = new MapData();
 var mapView = new MapView({ collection: mapData });
-
+var baseTaxonomyUrl = 'https://base.transformap.co/entity/';
 
 var FilterData = Backbone.Collection.extend({
     url:"/json/susy-taxonomy.json",
@@ -78,7 +77,7 @@ var FilterView = Backbone.View.extend({
     render: function () {
         this.collection.each(function(model){
             var filter = model.toJSON();
-            if(filter.subclass_of.value == 'Q1234#SSEDAS_TAX_UUID') {
+            if(filter.subclass_of.value == 'https://base.transformap.co/entity/Q1234#SSEDAS_TAX_UUID') {
                 this.$el.append(this.template(filter));
             }
         }, this);        
@@ -93,12 +92,18 @@ var FilterView = Backbone.View.extend({
     },
     renderItem: function(model) {
         var filter = model.toJSON();
-        if(filter.subclass_of.value == 'Q1234#SSEDAS_TAX_UUID') {
-            subcategories.push(filter.item.value);
-            this.$el.append(this.template(filter));
+        if(filter.subclass_of) {
+            if(filter.subclass_of.value == 'https://base.transformap.co/entity/Q1234#SSEDAS_TAX_UUID') {
+                var str = filter.item.value;
+                var subcategory = str.split('/');
+                subcategory = subcategory[subcategory.length - 1].split('#');
+                subcategories.push(subcategory[0]);
+                filter.id = subcategory[0];
+                this.$el.append(this.template(filter));
+            }
         }
         for(i = 0; i < subcategories.length; i++) {
-            if(filter.subclass_of.value == subcategories[i]) {
+            if(filter.subclass_of.value == baseTaxonomyUrl + subcategories[i]) {
                 var subCatId = '#' + subcategories[i];
                 $(subCatId).append('<li class="list-group-item">' + filter.itemLabel.value + '</li>');
             }
@@ -109,3 +114,4 @@ var FilterView = Backbone.View.extend({
 var filterData = new FilterData();
 var filterView = new FilterView({ collection: filterData });
 filterView.render();
+

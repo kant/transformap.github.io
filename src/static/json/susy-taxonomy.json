@@ -13,7 +13,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q1234#SSEDAS_TAX_UUID"
+          "value": "https://base.transformap.co/entity/Q1234#SSEDAS_TAX_UUID"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -22,17 +22,13 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q12#taxonomy"
-        },
-        "subclass_of": {
-          "type": "uri",
-          "value": ""
+          "value": "https://base.transformap.co/entity/Q12#taxonomy"
         }
       },
       {
         "item": {
           "type": "uri",
-          "value": "Q10001"
+          "value": "https://base.transformap.co/entity/Q10001#CATEGORY1"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -41,17 +37,17 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q22#taxonomy_category"
+          "value": "https://base.transformap.co/entity/Q22#taxonomy_category"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q1234#SSEDAS_TAX_UUID"
+          "value": "https://base.transformap.co/entity/Q1234#SSEDAS_TAX_UUID"
         }
       },
       {
         "item": {
           "type": "uri",
-          "value": "Q10002"
+          "value": "https://base.transformap.co/entity/Q10002#CATEGORY2"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -60,17 +56,17 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q22#taxonomy_category"
+          "value": "https://base.transformap.co/entity/Q22#taxonomy_category"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q1234#SSEDAS_TAX_UUID"
+          "value": "https://base.transformap.co/entity/Q1234#SSEDAS_TAX_UUID"
         }
       },
       {
         "item": {
           "type": "uri",
-          "value": "Q10003"
+          "value": "https://base.transformap.co/entity/Q10003#CATEGORY3"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -79,17 +75,17 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q22#taxonomy_category"
+          "value": "https://base.transformap.co/entity/Q22#taxonomy_category"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q1234#SSEDAS_TAX_UUID"
+          "value": "https://base.transformap.co/entity/Q1234#SSEDAS_TAX_UUID"
         }
       },
       {
         "item": {
           "type": "uri",
-          "value": "Q10004"
+          "value": "https://base.transformap.co/entity/Q10004#CATEGORY4"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -98,17 +94,17 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q22#taxonomy_category"
+          "value": "https://base.transformap.co/entity/Q22#taxonomy_category"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q1234#SSEDAS_TAX_UUID"
+          "value": "https://base.transformap.co/entity/Q1234#SSEDAS_TAX_UUID"
         }
       },
       {
         "item": {
           "type": "uri",
-          "value": "Q10005"
+          "value": "https://base.transformap.co/entity/Q10005#CATEGORY5"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -117,17 +113,17 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q22#taxonomy_category"
+          "value": "https://base.transformap.co/entity/Q22#taxonomy_category"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q1234#SSEDAS_TAX_UUID"
+          "value": "https://base.transformap.co/entity/Q1234#SSEDAS_TAX_UUID"
         }
       },
       {
         "item": {
           "type": "uri",
-          "value": "Q10006"
+          "value": "https://base.transformap.co/entity/Q10006#CATEGORY6"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -136,17 +132,17 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q22#taxonomy_category"
+          "value": "https://base.transformap.co/entity/Q22#taxonomy_category"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q1234#SSEDAS_TAX_UUID"
+          "value": "https://base.transformap.co/entity/Q1234#SSEDAS_TAX_UUID"
         }
       },
       {
         "item": {
           "type": "uri",
-          "value": "Q10007"
+          "value": "https://base.transformap.co/entity/Q10007#CATEGORY7"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -155,17 +151,17 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q22#taxonomy_category"
+          "value": "https://base.transformap.co/entity/Q22#taxonomy_category"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q1234#SSEDAS_TAX_UUID"
+          "value": "https://base.transformap.co/entity/Q1234#SSEDAS_TAX_UUID"
         }
       },
       {
         "item": {
           "type": "uri",
-          "value": "Q10008"
+          "value": "https://base.transformap.co/entity/Q10008#CATEGORY8"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -174,17 +170,17 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q22#taxonomy_category"
+          "value": "https://base.transformap.co/entity/Q22#taxonomy_category"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q1234#SSEDAS_TAX_UUID"
+          "value": "https://base.transformap.co/entity/Q1234#SSEDAS_TAX_UUID"
         }
       },
       {
         "item": {
           "type": "uri",
-          "value": "Q10009"
+          "value": "https://base.transformap.co/entity/Q10009#CATEGORY9"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -193,17 +189,17 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q22#taxonomy_category"
+          "value": "https://base.transformap.co/entity/Q22#taxonomy_category"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q1234#SSEDAS_TAX_UUID"
+          "value": "https://base.transformap.co/entity/Q1234#SSEDAS_TAX_UUID"
         }
       },
       {
         "item": {
           "type": "uri",
-          "value": "Q10010"
+          "value": "https://base.transformap.co/entity/Q10010#CATEGORY10"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -212,17 +208,17 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q22#taxonomy_category"
+          "value": "https://base.transformap.co/entity/Q22#taxonomy_category"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q1234#SSEDAS_TAX_UUID"
+          "value": "https://base.transformap.co/entity/Q1234#SSEDAS_TAX_UUID"
         }
       },
       {
         "item": {
           "type": "uri",
-          "value": "Q10011"
+          "value": "https://base.transformap.co/entity/Q10011#CATEGORY11"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -231,17 +227,17 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q22#taxonomy_category"
+          "value": "https://base.transformap.co/entity/Q22#taxonomy_category"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q1234#SSEDAS_TAX_UUID"
+          "value": "https://base.transformap.co/entity/Q1234#SSEDAS_TAX_UUID"
         }
       },
       {
         "item": {
           "type": "uri",
-          "value": "Q30001"
+          "value": "https://base.transformap.co/entity/Q30001"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -250,17 +246,17 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q22#taxonomy_category"
+          "value": "https://base.transformap.co/entity/Q22#taxonomy_category"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10001"
+          "value": "https://base.transformap.co/entity/Q10001"
         }
       },
       {
         "item": {
           "type": "uri",
-          "value": "Q30002"
+          "value": "https://base.transformap.co/entity/Q30002"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -269,17 +265,17 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q22#taxonomy_category"
+          "value": "https://base.transformap.co/entity/Q22#taxonomy_category"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10001"
+          "value": "https://base.transformap.co/entity/Q10001"
         }
       },
       {
         "item": {
           "type": "uri",
-          "value": "Q30003"
+          "value": "https://base.transformap.co/entity/Q30003"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -288,17 +284,17 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q22#taxonomy_category"
+          "value": "https://base.transformap.co/entity/Q22#taxonomy_category"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10001"
+          "value": "https://base.transformap.co/entity/Q10001"
         }
       },
       {
         "item": {
           "type": "uri",
-          "value": "Q30004"
+          "value": "https://base.transformap.co/entity/Q30004"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -307,17 +303,17 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q22#taxonomy_category"
+          "value": "https://base.transformap.co/entity/Q22#taxonomy_category"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10001"
+          "value": "https://base.transformap.co/entity/Q10001"
         }
       },
       {
         "item": {
           "type": "uri",
-          "value": "Q40001"
+          "value": "https://base.transformap.co/entity/Q40001"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -326,17 +322,17 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q22#taxonomy_category"
+          "value": "https://base.transformap.co/entity/Q22#taxonomy_category"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10003"
+          "value": "https://base.transformap.co/entity/Q10003"
         }
       },
       {
         "item": {
           "type": "uri",
-          "value": "Q40002"
+          "value": "https://base.transformap.co/entity/Q40002"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -345,17 +341,17 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q22#taxonomy_category"
+          "value": "https://base.transformap.co/entity/Q22#taxonomy_category"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10003"
+          "value": "https://base.transformap.co/entity/Q10003"
         }
       },
       {
         "item": {
           "type": "uri",
-          "value": "Q40003"
+          "value": "https://base.transformap.co/entity/Q40003"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -364,17 +360,17 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q22#taxonomy_category"
+          "value": "https://base.transformap.co/entity/Q22#taxonomy_category"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10003"
+          "value": "https://base.transformap.co/entity/Q10003"
         }
       },
       {
         "item": {
           "type": "uri",
-          "value": "Q40004"
+          "value": "https://base.transformap.co/entity/Q40004"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -383,17 +379,17 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q22#taxonomy_category"
+          "value": "https://base.transformap.co/entity/Q22#taxonomy_category"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10003"
+          "value": "https://base.transformap.co/entity/Q10003"
         }
       },
       {
         "item": {
           "type": "uri",
-          "value": "Q50001"
+          "value": "https://base.transformap.co/entity/Q50001"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -402,17 +398,17 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q22#taxonomy_category"
+          "value": "https://base.transformap.co/entity/Q22#taxonomy_category"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10009"
+          "value": "https://base.transformap.co/entity/Q10009"
         }
       },
       {
         "item": {
           "type": "uri",
-          "value": "Q50002"
+          "value": "https://base.transformap.co/entity/Q50002"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -421,17 +417,17 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q22#taxonomy_category"
+          "value": "https://base.transformap.co/entity/Q22#taxonomy_category"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10009"
+          "value": "https://base.transformap.co/entity/Q10009"
         }
       },
       {
         "item": {
           "type": "uri",
-          "value": "Q50003"
+          "value": "https://base.transformap.co/entity/Q50003"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -440,17 +436,17 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q22#taxonomy_category"
+          "value": "https://base.transformap.co/entity/Q22#taxonomy_category"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10009"
+          "value": "https://base.transformap.co/entity/Q10009"
         }
       },
       {
         "item": {
           "type": "uri",
-          "value": "Q12001"
+          "value": "https://base.transformap.co/entity/Q12001"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -459,11 +455,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q30001"
+          "value": "https://base.transformap.co/entity/Q30001"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -473,7 +469,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q12002"
+          "value": "https://base.transformap.co/entity/Q12002"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -482,11 +478,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q30001"
+          "value": "https://base.transformap.co/entity/Q30001"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -496,7 +492,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q12003"
+          "value": "https://base.transformap.co/entity/Q12003"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -505,11 +501,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q30001"
+          "value": "https://base.transformap.co/entity/Q30001"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -519,7 +515,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q12004"
+          "value": "https://base.transformap.co/entity/Q12004"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -528,11 +524,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q30001"
+          "value": "https://base.transformap.co/entity/Q30001"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -542,7 +538,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q12005"
+          "value": "https://base.transformap.co/entity/Q12005"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -551,11 +547,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q30001"
+          "value": "https://base.transformap.co/entity/Q30001"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -565,7 +561,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q12006"
+          "value": "https://base.transformap.co/entity/Q12006"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -574,11 +570,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q30001"
+          "value": "https://base.transformap.co/entity/Q30001"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -588,7 +584,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q12007"
+          "value": "https://base.transformap.co/entity/Q12007"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -597,11 +593,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q30001"
+          "value": "https://base.transformap.co/entity/Q30001"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -611,7 +607,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q12008"
+          "value": "https://base.transformap.co/entity/Q12008"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -620,11 +616,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q30001"
+          "value": "https://base.transformap.co/entity/Q30001"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -634,7 +630,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q12009"
+          "value": "https://base.transformap.co/entity/Q12009"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -643,11 +639,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q30002"
+          "value": "https://base.transformap.co/entity/Q30002"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -657,7 +653,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q12010"
+          "value": "https://base.transformap.co/entity/Q12010"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -666,11 +662,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q30002"
+          "value": "https://base.transformap.co/entity/Q30002"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -680,7 +676,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q12011"
+          "value": "https://base.transformap.co/entity/Q12011"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -689,11 +685,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q30002"
+          "value": "https://base.transformap.co/entity/Q30002"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -703,7 +699,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q12012"
+          "value": "https://base.transformap.co/entity/Q12012"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -712,11 +708,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q30002"
+          "value": "https://base.transformap.co/entity/Q30002"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -726,7 +722,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q12013"
+          "value": "https://base.transformap.co/entity/Q12013"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -735,11 +731,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q30002"
+          "value": "https://base.transformap.co/entity/Q30002"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -749,7 +745,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q12014"
+          "value": "https://base.transformap.co/entity/Q12014"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -758,11 +754,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q30002"
+          "value": "https://base.transformap.co/entity/Q30002"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -772,7 +768,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q12015"
+          "value": "https://base.transformap.co/entity/Q12015"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -781,11 +777,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q30002"
+          "value": "https://base.transformap.co/entity/Q30002"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -795,7 +791,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q12016"
+          "value": "https://base.transformap.co/entity/Q12016"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -804,11 +800,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q30002"
+          "value": "https://base.transformap.co/entity/Q30002"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -818,7 +814,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q12017"
+          "value": "https://base.transformap.co/entity/Q12017"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -827,11 +823,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q30003"
+          "value": "https://base.transformap.co/entity/Q30003"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -841,7 +837,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q12018"
+          "value": "https://base.transformap.co/entity/Q12018"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -850,11 +846,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q30003"
+          "value": "https://base.transformap.co/entity/Q30003"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -864,7 +860,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q12019"
+          "value": "https://base.transformap.co/entity/Q12019"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -873,11 +869,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q30003"
+          "value": "https://base.transformap.co/entity/Q30003"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -887,7 +883,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q12020"
+          "value": "https://base.transformap.co/entity/Q12020"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -896,11 +892,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q30003"
+          "value": "https://base.transformap.co/entity/Q30003"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -910,7 +906,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q12021"
+          "value": "https://base.transformap.co/entity/Q12021"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -919,11 +915,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q30003"
+          "value": "https://base.transformap.co/entity/Q30003"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -933,7 +929,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q12022"
+          "value": "https://base.transformap.co/entity/Q12022"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -942,11 +938,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q30004"
+          "value": "https://base.transformap.co/entity/Q30004"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -956,7 +952,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q12023"
+          "value": "https://base.transformap.co/entity/Q12023"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -965,11 +961,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q30004"
+          "value": "https://base.transformap.co/entity/Q30004"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -979,7 +975,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q12024"
+          "value": "https://base.transformap.co/entity/Q12024"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -988,11 +984,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q30004"
+          "value": "https://base.transformap.co/entity/Q30004"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1002,7 +998,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q12025"
+          "value": "https://base.transformap.co/entity/Q12025"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1011,11 +1007,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q30004"
+          "value": "https://base.transformap.co/entity/Q30004"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1025,7 +1021,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q12026"
+          "value": "https://base.transformap.co/entity/Q12026"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1034,11 +1030,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q30004"
+          "value": "https://base.transformap.co/entity/Q30004"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1048,7 +1044,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q12027"
+          "value": "https://base.transformap.co/entity/Q12027"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1057,11 +1053,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q30004"
+          "value": "https://base.transformap.co/entity/Q30004"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1071,7 +1067,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q12028"
+          "value": "https://base.transformap.co/entity/Q12028"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1080,11 +1076,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q30004"
+          "value": "https://base.transformap.co/entity/Q30004"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1094,7 +1090,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q12029"
+          "value": "https://base.transformap.co/entity/Q12029"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1103,11 +1099,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q30004"
+          "value": "https://base.transformap.co/entity/Q30004"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1117,7 +1113,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q12030"
+          "value": "https://base.transformap.co/entity/Q12030"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1126,11 +1122,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q30004"
+          "value": "https://base.transformap.co/entity/Q30004"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1140,7 +1136,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q12031"
+          "value": "https://base.transformap.co/entity/Q12031"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1149,11 +1145,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q30004"
+          "value": "https://base.transformap.co/entity/Q30004"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1163,7 +1159,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q13001"
+          "value": "https://base.transformap.co/entity/Q13001"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1172,11 +1168,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10002"
+          "value": "https://base.transformap.co/entity/Q10002"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1186,7 +1182,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q13002"
+          "value": "https://base.transformap.co/entity/Q13002"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1195,11 +1191,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10002"
+          "value": "https://base.transformap.co/entity/Q10002"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1209,7 +1205,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q13003"
+          "value": "https://base.transformap.co/entity/Q13003"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1218,11 +1214,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10002"
+          "value": "https://base.transformap.co/entity/Q10002"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1232,7 +1228,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q13004"
+          "value": "https://base.transformap.co/entity/Q13004"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1241,11 +1237,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10002"
+          "value": "https://base.transformap.co/entity/Q10002"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1255,7 +1251,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q13005"
+          "value": "https://base.transformap.co/entity/Q13005"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1264,11 +1260,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10002"
+          "value": "https://base.transformap.co/entity/Q10002"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1278,7 +1274,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q13006"
+          "value": "https://base.transformap.co/entity/Q13006"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1287,11 +1283,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10002"
+          "value": "https://base.transformap.co/entity/Q10002"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1301,7 +1297,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q13007"
+          "value": "https://base.transformap.co/entity/Q13007"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1310,11 +1306,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10002"
+          "value": "https://base.transformap.co/entity/Q10002"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1324,7 +1320,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q14001"
+          "value": "https://base.transformap.co/entity/Q14001"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1333,11 +1329,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q40001"
+          "value": "https://base.transformap.co/entity/Q40001"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1347,7 +1343,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q14002"
+          "value": "https://base.transformap.co/entity/Q14002"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1356,11 +1352,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q40001"
+          "value": "https://base.transformap.co/entity/Q40001"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1370,7 +1366,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q14003"
+          "value": "https://base.transformap.co/entity/Q14003"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1379,11 +1375,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q40001"
+          "value": "https://base.transformap.co/entity/Q40001"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1393,7 +1389,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q14004"
+          "value": "https://base.transformap.co/entity/Q14004"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1402,11 +1398,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q40002"
+          "value": "https://base.transformap.co/entity/Q40002"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1416,7 +1412,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q14005"
+          "value": "https://base.transformap.co/entity/Q14005"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1425,11 +1421,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q40002"
+          "value": "https://base.transformap.co/entity/Q40002"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1439,7 +1435,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q14006"
+          "value": "https://base.transformap.co/entity/Q14006"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1448,11 +1444,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q40002"
+          "value": "https://base.transformap.co/entity/Q40002"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1462,7 +1458,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q14007"
+          "value": "https://base.transformap.co/entity/Q14007"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1471,11 +1467,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q40002"
+          "value": "https://base.transformap.co/entity/Q40002"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1485,7 +1481,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q14008"
+          "value": "https://base.transformap.co/entity/Q14008"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1494,11 +1490,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q40002"
+          "value": "https://base.transformap.co/entity/Q40002"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1508,7 +1504,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q14009"
+          "value": "https://base.transformap.co/entity/Q14009"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1517,11 +1513,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q40002"
+          "value": "https://base.transformap.co/entity/Q40002"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1531,7 +1527,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q14010"
+          "value": "https://base.transformap.co/entity/Q14010"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1540,11 +1536,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q40002"
+          "value": "https://base.transformap.co/entity/Q40002"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1554,7 +1550,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q14011"
+          "value": "https://base.transformap.co/entity/Q14011"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1563,11 +1559,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q40003"
+          "value": "https://base.transformap.co/entity/Q40003"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1577,7 +1573,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q14012"
+          "value": "https://base.transformap.co/entity/Q14012"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1586,11 +1582,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q40003"
+          "value": "https://base.transformap.co/entity/Q40003"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1600,7 +1596,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q14013"
+          "value": "https://base.transformap.co/entity/Q14013"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1609,11 +1605,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q40003"
+          "value": "https://base.transformap.co/entity/Q40003"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1623,7 +1619,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q14014"
+          "value": "https://base.transformap.co/entity/Q14014"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1632,11 +1628,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q40003"
+          "value": "https://base.transformap.co/entity/Q40003"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1646,7 +1642,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q14015"
+          "value": "https://base.transformap.co/entity/Q14015"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1655,11 +1651,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q40004"
+          "value": "https://base.transformap.co/entity/Q40004"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1669,7 +1665,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q14016"
+          "value": "https://base.transformap.co/entity/Q14016"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1678,11 +1674,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q40004"
+          "value": "https://base.transformap.co/entity/Q40004"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1692,7 +1688,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q14017"
+          "value": "https://base.transformap.co/entity/Q14017"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1701,11 +1697,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q40004"
+          "value": "https://base.transformap.co/entity/Q40004"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1715,7 +1711,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q14018"
+          "value": "https://base.transformap.co/entity/Q14018"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1724,11 +1720,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q40004"
+          "value": "https://base.transformap.co/entity/Q40004"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1738,7 +1734,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q15001"
+          "value": "https://base.transformap.co/entity/Q15001"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1747,11 +1743,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10004"
+          "value": "https://base.transformap.co/entity/Q10004"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1761,7 +1757,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q15002"
+          "value": "https://base.transformap.co/entity/Q15002"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1770,11 +1766,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10004"
+          "value": "https://base.transformap.co/entity/Q10004"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1784,7 +1780,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q15003"
+          "value": "https://base.transformap.co/entity/Q15003"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1793,11 +1789,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10004"
+          "value": "https://base.transformap.co/entity/Q10004"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1807,7 +1803,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q15004"
+          "value": "https://base.transformap.co/entity/Q15004"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1816,11 +1812,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10004"
+          "value": "https://base.transformap.co/entity/Q10004"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1830,7 +1826,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q15005"
+          "value": "https://base.transformap.co/entity/Q15005"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1839,11 +1835,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10004"
+          "value": "https://base.transformap.co/entity/Q10004"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1853,7 +1849,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q16001"
+          "value": "https://base.transformap.co/entity/Q16001"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1862,11 +1858,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10005"
+          "value": "https://base.transformap.co/entity/Q10005"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1876,7 +1872,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q16002"
+          "value": "https://base.transformap.co/entity/Q16002"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1885,11 +1881,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10005"
+          "value": "https://base.transformap.co/entity/Q10005"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1899,7 +1895,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q16003"
+          "value": "https://base.transformap.co/entity/Q16003"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1908,11 +1904,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10005"
+          "value": "https://base.transformap.co/entity/Q10005"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1922,7 +1918,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q16004"
+          "value": "https://base.transformap.co/entity/Q16004"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1931,11 +1927,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10005"
+          "value": "https://base.transformap.co/entity/Q10005"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1945,7 +1941,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q16005"
+          "value": "https://base.transformap.co/entity/Q16005"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1954,11 +1950,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10005"
+          "value": "https://base.transformap.co/entity/Q10005"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1968,7 +1964,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q16006"
+          "value": "https://base.transformap.co/entity/Q16006"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -1977,11 +1973,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10005"
+          "value": "https://base.transformap.co/entity/Q10005"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -1991,7 +1987,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q16007"
+          "value": "https://base.transformap.co/entity/Q16007"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2000,11 +1996,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10005"
+          "value": "https://base.transformap.co/entity/Q10005"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2014,7 +2010,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q16008"
+          "value": "https://base.transformap.co/entity/Q16008"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2023,11 +2019,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10005"
+          "value": "https://base.transformap.co/entity/Q10005"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2037,7 +2033,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q17001"
+          "value": "https://base.transformap.co/entity/Q17001"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2046,11 +2042,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10006"
+          "value": "https://base.transformap.co/entity/Q10006"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2060,7 +2056,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q17002"
+          "value": "https://base.transformap.co/entity/Q17002"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2069,11 +2065,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10006"
+          "value": "https://base.transformap.co/entity/Q10006"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2083,7 +2079,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q17003"
+          "value": "https://base.transformap.co/entity/Q17003"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2092,11 +2088,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10006"
+          "value": "https://base.transformap.co/entity/Q10006"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2106,7 +2102,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q17004"
+          "value": "https://base.transformap.co/entity/Q17004"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2115,11 +2111,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10006"
+          "value": "https://base.transformap.co/entity/Q10006"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2129,7 +2125,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q17005"
+          "value": "https://base.transformap.co/entity/Q17005"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2138,11 +2134,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10006"
+          "value": "https://base.transformap.co/entity/Q10006"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2152,7 +2148,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q17006"
+          "value": "https://base.transformap.co/entity/Q17006"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2161,11 +2157,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10006"
+          "value": "https://base.transformap.co/entity/Q10006"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2175,7 +2171,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q18001"
+          "value": "https://base.transformap.co/entity/Q18001"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2184,11 +2180,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10007"
+          "value": "https://base.transformap.co/entity/Q10007"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2198,7 +2194,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q18002"
+          "value": "https://base.transformap.co/entity/Q18002"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2207,11 +2203,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10007"
+          "value": "https://base.transformap.co/entity/Q10007"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2221,7 +2217,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q18003"
+          "value": "https://base.transformap.co/entity/Q18003"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2230,11 +2226,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10007"
+          "value": "https://base.transformap.co/entity/Q10007"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2244,7 +2240,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q18004"
+          "value": "https://base.transformap.co/entity/Q18004"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2253,11 +2249,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10007"
+          "value": "https://base.transformap.co/entity/Q10007"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2267,7 +2263,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q18005"
+          "value": "https://base.transformap.co/entity/Q18005"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2276,11 +2272,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10007"
+          "value": "https://base.transformap.co/entity/Q10007"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2290,7 +2286,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q18006"
+          "value": "https://base.transformap.co/entity/Q18006"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2299,11 +2295,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10007"
+          "value": "https://base.transformap.co/entity/Q10007"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2313,7 +2309,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q18007"
+          "value": "https://base.transformap.co/entity/Q18007"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2322,11 +2318,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10007"
+          "value": "https://base.transformap.co/entity/Q10007"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2336,7 +2332,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q19001"
+          "value": "https://base.transformap.co/entity/Q19001"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2345,11 +2341,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10008"
+          "value": "https://base.transformap.co/entity/Q10008"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2359,7 +2355,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q19002"
+          "value": "https://base.transformap.co/entity/Q19002"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2368,11 +2364,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10008"
+          "value": "https://base.transformap.co/entity/Q10008"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2382,7 +2378,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q19003"
+          "value": "https://base.transformap.co/entity/Q19003"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2391,11 +2387,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10008"
+          "value": "https://base.transformap.co/entity/Q10008"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2405,7 +2401,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q19004"
+          "value": "https://base.transformap.co/entity/Q19004"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2414,11 +2410,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10008"
+          "value": "https://base.transformap.co/entity/Q10008"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2428,7 +2424,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q19005"
+          "value": "https://base.transformap.co/entity/Q19005"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2437,11 +2433,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10008"
+          "value": "https://base.transformap.co/entity/Q10008"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2451,7 +2447,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q19006"
+          "value": "https://base.transformap.co/entity/Q19006"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2460,11 +2456,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10008"
+          "value": "https://base.transformap.co/entity/Q10008"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2474,7 +2470,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q19007"
+          "value": "https://base.transformap.co/entity/Q19007"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2483,11 +2479,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10008"
+          "value": "https://base.transformap.co/entity/Q10008"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2497,7 +2493,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q20001"
+          "value": "https://base.transformap.co/entity/Q20001"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2506,11 +2502,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q50001"
+          "value": "https://base.transformap.co/entity/Q50001"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2520,7 +2516,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q20002"
+          "value": "https://base.transformap.co/entity/Q20002"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2529,11 +2525,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q50001"
+          "value": "https://base.transformap.co/entity/Q50001"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2543,7 +2539,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q20003"
+          "value": "https://base.transformap.co/entity/Q20003"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2552,11 +2548,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q50001"
+          "value": "https://base.transformap.co/entity/Q50001"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2566,7 +2562,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q20004"
+          "value": "https://base.transformap.co/entity/Q20004"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2575,11 +2571,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q50002"
+          "value": "https://base.transformap.co/entity/Q50002"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2589,7 +2585,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q20005"
+          "value": "https://base.transformap.co/entity/Q20005"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2598,11 +2594,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q50002"
+          "value": "https://base.transformap.co/entity/Q50002"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2612,7 +2608,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q20006"
+          "value": "https://base.transformap.co/entity/Q20006"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2621,11 +2617,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q50002"
+          "value": "https://base.transformap.co/entity/Q50002"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2635,7 +2631,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q20007"
+          "value": "https://base.transformap.co/entity/Q20007"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2644,11 +2640,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q50002"
+          "value": "https://base.transformap.co/entity/Q50002"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2658,7 +2654,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q20008"
+          "value": "https://base.transformap.co/entity/Q20008"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2667,11 +2663,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q50003"
+          "value": "https://base.transformap.co/entity/Q50003"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2681,7 +2677,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q20009"
+          "value": "https://base.transformap.co/entity/Q20009"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2690,11 +2686,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q50003"
+          "value": "https://base.transformap.co/entity/Q50003"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2704,7 +2700,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q20010"
+          "value": "https://base.transformap.co/entity/Q20010"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2713,11 +2709,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q50003"
+          "value": "https://base.transformap.co/entity/Q50003"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2727,7 +2723,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q20011"
+          "value": "https://base.transformap.co/entity/Q20011"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2736,11 +2732,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q50003"
+          "value": "https://base.transformap.co/entity/Q50003"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2750,7 +2746,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q21001"
+          "value": "https://base.transformap.co/entity/Q21001"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2759,11 +2755,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10010"
+          "value": "https://base.transformap.co/entity/Q10010"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2773,7 +2769,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q21002"
+          "value": "https://base.transformap.co/entity/Q21002"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2782,11 +2778,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10010"
+          "value": "https://base.transformap.co/entity/Q10010"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2796,7 +2792,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q21003"
+          "value": "https://base.transformap.co/entity/Q21003"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2805,11 +2801,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10010"
+          "value": "https://base.transformap.co/entity/Q10010"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2819,7 +2815,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q21004"
+          "value": "https://base.transformap.co/entity/Q21004"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2828,11 +2824,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10010"
+          "value": "https://base.transformap.co/entity/Q10010"
         },
         "type_of_initiative_tag": {
           "type": "literal",
@@ -2842,7 +2838,7 @@
       {
         "item": {
           "type": "uri",
-          "value": "Q22000"
+          "value": "https://base.transformap.co/entity/Q22000"
         },
         "itemLabel": {
           "xml:lang": "en",
@@ -2851,11 +2847,11 @@
         },
         "instance_of": {
           "type": "uri",
-          "value": "Q13742#TypeOfInitiative"
+          "value": "https://base.transformap.co/entity/Q13742#TypeOfInitiative"
         },
         "subclass_of": {
           "type": "uri",
-          "value": "Q10011"
+          "value": "https://base.transformap.co/entity/Q10011"
         },
         "type_of_initiative_tag": {
           "type": "literal",

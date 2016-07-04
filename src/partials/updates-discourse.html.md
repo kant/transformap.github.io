@@ -1,6 +1,12 @@
 ## **TransforMap Updates** ##
 
 -----------------------------
+### **[Community Report #5: 30th of June 2016](https://discourse.transformap.co/t/community-report-5-thursday-30-june-2016/1061)**###
+**Call for community proposals to be funded**
+
+We have set 2000€ aside for the wider community to propose small activities to be funded. We are aiming at funding 4/5 buckets between 400-500€ each. Smaller or bigger proposals are also welcome. We are inviting anyone wishing to fund activities that will contribute to the Transformap vision to write start a thread on our forum... [Read more](https://discourse.transformap.co/t/community-report-5-thursday-30-june-2016/1061)
+
+---
 ### **[Community Report #4: 19th of May 2016](https://discourse.transformap.co/t/community-report-4-19th-of-may-2016/1053/1)**###
 **The global Map Jam goes on!**
 With over 300 participants, the third Map Jam organized by Shareable was successful and will be reconducted in June and October. Check out the Map Jam mapping guide (which we helped shape). Another round is planned during #SharingWeek betwen 5-11 June... [Read more](https://discourse.transformap.co/t/community-report-4-19th-of-may-2016/1053/1)
@@ -10,13 +16,6 @@ With over 300 participants, the third Map Jam organized by Shareable was success
 
 **Community**: **Migrating our inventory of maps**
 Since the beginning of our adventure we have inventoried existing maps of alternative economies as well as mapping resources (like atlases or tools). The wiki is now relocated at the following address: http://wiki.transformaps.net/. [Read more](https://discourse.transformap.co/t/community-report-3-27-april-2016/1042)
-
----
-### **[Community Report #2: 14 April 2016](https://discourse.transformap.co/t/community-report-2-14-april-2016/1026/1)**###
-
-In this second community report you will get a general update on the budget process, on the current tech proposal regarding the management of filters/taxonomies, and some updates from the community at large. Hope this is informative. Feedback/critiques/ideas are welcome! 
-**Community dinner in Berlin**
-We were a dozen, old and new, to share... [Read more](https://discourse.transformap.co/t/community-report-2-14-april-2016/1026/1)
 
 ---
 ### **[Listing map atlases of alternative economies](https://discourse.transformap.co/t/listing-all-atlases-of-maps/1012)** ###

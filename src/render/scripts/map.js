@@ -65,6 +65,7 @@ var FilterData = Backbone.Collection.extend({
     }
  });
 
+var categories = [];
 var subcategories = [];
 
 var FilterView = Backbone.View.extend({
@@ -95,17 +96,31 @@ var FilterView = Backbone.View.extend({
         if(filter.subclass_of) {
             if(filter.subclass_of.value == 'https://base.transformap.co/entity/Q1234#SSEDAS_TAX_UUID') {
                 var str = filter.item.value;
-                var subcategory = str.split('/');
-                subcategory = subcategory[subcategory.length - 1].split('#');
-                subcategories.push(subcategory[0]);
-                filter.id = subcategory[0];
+                var category = str.split('/');
+                category = category[category.length - 1].split('#');
+                categories.push(category[0]);
+                filter.id = category[0];
                 this.$el.append(this.template(filter));
+            }
+        }
+        for(i = 0; i < categories.length; i++) {
+            if(filter.subclass_of.value == baseTaxonomyUrl + categories[i]) {
+                var catId = '#' + categories[i];
+                var str = filter.item.value;
+                var subcategory = str.split('/');
+                subcategory = subcategory[subcategory.length - 1];
+                subcategories.push(subcategory);
+                $(catId).append('<li class="list-group-item" id="' + subcategory + '">' + filter.itemLabel.value + '</li>');
             }
         }
         for(i = 0; i < subcategories.length; i++) {
             if(filter.subclass_of.value == baseTaxonomyUrl + subcategories[i]) {
-                var subCatId = '#' + subcategories[i];
-                $(subCatId).append('<li class="list-group-item">' + filter.itemLabel.value + '</li>');
+                var catId = '#' + subcategories[i];
+                var str = filter.item.value;
+                var typeOfInitiative = str.split('/');
+                typeOfInitiative = typeOfInitiative[typeOfInitiative.length - 1];
+                subcategories.push(typeOfInitiative);
+                $(catId).append('<p>' + filter.itemLabel.value + '</p>');
             }
         }
     }

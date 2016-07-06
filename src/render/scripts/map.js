@@ -85,11 +85,16 @@ var FilterView = Backbone.View.extend({
         return this;
     },
     events: {
-        "click .category": "clicked"
+        "click .category": "clicked",
+        "click .subcategory": "clickedLevel"
     },
     clicked: function(e){
         e.preventDefault();
-        $(e.currentTarget).find('ul').slideToggle(400);
+        $(e.currentTarget).find('ul.subcategories').show(400);
+    },
+    clickedLevel: function(e){
+        e.preventDefault();
+        $(e.currentTarget).find('ul.type-of-initiative').slideToggle(400);
     },
     renderItem: function(model) {
         var filter = model.toJSON();
@@ -110,7 +115,7 @@ var FilterView = Backbone.View.extend({
                 var subcategory = str.split('/');
                 subcategory = subcategory[subcategory.length - 1];
                 subcategories.push(subcategory);
-                $(catId).append('<li class="list-group-item" id="' + subcategory + '">' + filter.itemLabel.value + '</li>');
+                $(catId).append('<li class="subcategory list-group-item">' + filter.itemLabel.value + '<ul id="' + subcategory + '" class="type-of-initiative"></ul></li>');
             }
         }
         for(i = 0; i < subcategories.length; i++) {
@@ -120,7 +125,7 @@ var FilterView = Backbone.View.extend({
                 var typeOfInitiative = str.split('/');
                 typeOfInitiative = typeOfInitiative[typeOfInitiative.length - 1];
                 subcategories.push(typeOfInitiative);
-                $(catId).append('<p>' + filter.itemLabel.value + '</p>');
+                $(catId).append('<li>' + filter.itemLabel.value + '</li>');
             }
         }
     }
@@ -129,4 +134,3 @@ var FilterView = Backbone.View.extend({
 var filterData = new FilterData();
 var filterView = new FilterView({ collection: filterData });
 filterView.render();
-

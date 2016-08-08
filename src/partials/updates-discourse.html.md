@@ -1,6 +1,14 @@
 ## **TransforMap Updates** ##
 
 -----------------------------
+### **[Community Report #6: 15th Of July 2016](https://discourse.transformap.co/t/community-report-6-15th-of-july/1122)**###
+**Update on call for proposal**
+
+The call for proposal received until now 6 proposals! Still only two persons have shown interest in being part of the decision process in allocating funds. To make it really a community process, please take part in it by writing to me or writing on the thread on the forum.
+To allow for enough time, the call is extended until Sunday 17th midnight, don't feel shy and take part in the process of deciding how the money is allocated!
+
+---
+
 ### **[Community Report #5: 30th of June 2016](https://discourse.transformap.co/t/community-report-5-thursday-30-june-2016/1061)**###
 **Call for community proposals to be funded**
 
@@ -10,12 +18,6 @@ We have set 2000€ aside for the wider community to propose small activities to
 ### **[Community Report #4: 19th of May 2016](https://discourse.transformap.co/t/community-report-4-19th-of-may-2016/1053/1)**###
 **The global Map Jam goes on!**
 With over 300 participants, the third Map Jam organized by Shareable was successful and will be reconducted in June and October. Check out the Map Jam mapping guide (which we helped shape). Another round is planned during #SharingWeek betwen 5-11 June... [Read more](https://discourse.transformap.co/t/community-report-4-19th-of-may-2016/1053/1)
-
----
-### **[Community Report #3: 27 April 2016](https://discourse.transformap.co/t/community-report-3-27-april-2016/1042)**###
-
-**Community**: **Migrating our inventory of maps**
-Since the beginning of our adventure we have inventoried existing maps of alternative economies as well as mapping resources (like atlases or tools). The wiki is now relocated at the following address: http://wiki.transformaps.net/. [Read more](https://discourse.transformap.co/t/community-report-3-27-april-2016/1042)
 
 ---
 ### **[Listing map atlases of alternative economies](https://discourse.transformap.co/t/listing-all-atlases-of-maps/1012)** ###

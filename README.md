@@ -7,12 +7,12 @@ TransforMap works towards an online platform for you to visualize the myriads of
 1. [Install DocPad](https://github.com/bevry/docpad)
 
 2. Clone the project and run the server
-
-	git clone https://github.com/transformap/transformap.github.io
-	cd transformap.github.io
-	docpad run
-
-3. [Open http://localhost:9778/](http://localhost:9778/)
+```
+    git clone https://github.com/transformap/transformap.github.io
+    cd transformap.github.io
+    docpad run
+```
+3. Open [http://localhost:9778/](http://localhost:9778/)
 
 4. Start hacking away by modifying the `src` directory
 
@@ -20,7 +20,7 @@ TransforMap works towards an online platform for you to visualize the myriads of
 
 Allow contributors to edit content by adding them as collaborators ([Settings > Collaborators](https://github.com/TransforMap/transformap.github.io/settings/collaboration)) on the repository.
 
-They can they edit the [Markdown](https://daringfireball.net/projects/markdown/syntax) partials at [prose.io/#transformap/transformap.github.io](http://prose.io/#transformap/transformap.github.io).
+They can edit the [Markdown](https://daringfireball.net/projects/markdown/syntax) partials at [prose.io/#transformap/transformap.github.io](http://prose.io/#transformap/transformap.github.io).
 
 #### Tips for editing using Prose ####
 
